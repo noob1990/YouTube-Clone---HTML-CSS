@@ -1,0 +1,72 @@
+
+        .vid-preview-1{
+            display:grid;
+            grid-template-columns: 300px 300px 300px 300px;
+            grid-template-rows: 1fr 1fr 1fr ;
+            column-gap: 18px;
+            background-color: rgb(220, 220, 220);
+            margin-top: 10px;
+            margin-left: 100px;
+            
+            
+        }
+        .vid-preview-2{
+            display:grid;
+            grid-template-columns:50px 1fr;
+        }
+        .thumbnail-1{
+            width: 300px;
+        }
+        .profile-pic{
+            width: 45px;
+            border-radius: 50px;
+            margin-top: 10px;
+        }
+        .description{
+            margin-top: 10px;
+            font-family: arial;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .author{
+            color: gray;
+            font-family: arial;
+            font-size: 12px;
+            margin-bottom: 0px;
+        }
+        .stats{
+            color: gray;
+            font-family: arial;
+            font-size: 12px;
+            margin-top: 2px;
+        }
+        .vid-time{
+            background-color: black;
+            color: white;
+            position:absolute;
+            bottom: 12px;
+            right: 8px;
+            font-size: 14px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .thumbnail-div{
+            position: relative;
+        }
+        .ntf-div{
+            position: relative;
+
+        }
+        .ntf-number{
+            position: absolute;
+            top:0;
+            right:22px;
+            font-size: 12px;
+            background-color: rgb(173, 39, 39);
+            color: white;
+            border-radius: 20px;
+            padding-left: 5px;
+            padding-right: 5px;
+            border-radius: solid;
+
+        }

@@ -1,0 +1,117 @@
+
+/*.header{
+    display:flex;
+    flex-direction: column; /*vertical
+    } */
+
+    .header{
+        display:flex;
+        flex-direction: row; 
+        justify-content:space-between;
+        align-items: center;
+        position: fixed;
+        top:0px;
+        left:0;
+        right:0;
+        height: 60px;
+        background-color: white;
+        border-bottom-width: 1px;
+        border-bottom-color: rgb(215, 214, 214);
+        border-bottom-style: solid ;
+        z-index:100;
+       
+    }
+    .hamburger-icon{
+        height: 20px;
+    }
+    .youtube-logo{
+        height: 30px;
+        margin-left: 15px;
+    }
+    .camera{
+        width: 40px;
+    }
+    .dots{
+        width: 40px;
+    }
+    .notification{
+        width: 40px;
+    }
+    .my-channel{
+        width: 40px;
+    }
+    .search-icon{
+        height: 28px;
+    }
+    .voice-icon{
+        height: 28px;
+
+    }
+    .search-bar{
+        height: 36px;
+        box-shadow: inset 1px 2px 5px rgb(231, 231, 231);
+        border-radius: 2px;
+        border-color: rgb(214, 210, 210);
+        border-width: 1px;
+        border-style: solid;
+        padding-left: 5px;
+        font-size: 15px;
+        flex: 1;
+        width:0;
+        
+        
+    }
+    .search-bar::placeholder{
+        font-family: Arial;
+    }
+    .left{
+        display:flex;
+        align-items: center;
+       
+    }
+    .center{
+        display:flex;
+        align-items: center;
+        width: 500px;
+        
+    } 
+    .right{
+        display:flex;
+        align-items: center;
+    }
+    .search-btn{
+        background-color: rgb(223, 222, 222);
+        border-color: rgb(229, 229, 229);
+        border-width: 1px;  
+        border-style: solid;
+        height: 41px;
+        margin-left: -1px;
+    }
+    .voice-btn{
+        background-color: rgb(238, 235, 235);
+        border-color: rgb(229, 229, 229);
+        border-width: 0px;
+        border-radius: 20px;
+        margin-left: 5px;
+        height:40px ;
+        width: 40px;
+    }
+    .camera{
+        height:25px;
+        margin-right: 8px;
+    }
+    .dots{
+        height: 25px;
+        margin-right: 8px;
+    }
+    .notification{
+        height: 25px;
+        margin-right: 18px;  
+    }
+    .my-channel{
+        height:38px;
+        width: 38px;
+        margin-right: 8px;
+    }
+    
+

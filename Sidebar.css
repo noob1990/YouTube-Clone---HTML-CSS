@@ -1,0 +1,59 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    bottom: 0px;
+    width: 80px;
+}
+.sidebar-1{
+    display:flex;
+    align-items: center;
+    height: 80px;
+}
+.sidebar-2{
+    display:flex;
+    align-items: center;
+    height: 80px;
+}
+.sidebar-3{
+    display:flex;
+    align-items: center;
+    height: 80px;
+}
+.sidebar-4{
+    display:flex;
+    align-items: center;
+    height: 80px;
+}
+.sidebar-5{
+    display:flex;
+    align-items: center;
+    height: 80px;
+}
+.sidebar-6{
+    display:flex;
+    align-items: center;
+    height: 80px;
+}
+.home{
+    height: 30px;
+
+}
+.explore{
+    height: 30px;
+}
+.subscription{
+    height: 30px;
+}
+.original{
+    height: 30px;
+}
+.music{
+    height: 30px;
+}
+.library{
+    height: 30px;
+}
